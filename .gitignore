@@ -1,0 +1,11 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (optional - uncomment if working on a library)
+# composer.lock
+
+# PHPUnit cache
+/.phpunit.cache/
+
+# Test coverage reports
+/coverage/
