@@ -71,7 +71,7 @@ Services exposes dans le conteneur :
 - `Cycle\ORM\ORMInterface`
 - `PDO`
 
-Si `impulsephp/database` est present, le provider expose aussi `Impulse\Database\Contrats\DatabaseInterface` pour rester compatible avec les autres packages.
+Si `impulsephp/db` est present, le provider expose aussi `Impulse\Database\Contrats\DatabaseInterface` pour rester compatible avec les autres packages.
 
 ## Entites et snapshot
 

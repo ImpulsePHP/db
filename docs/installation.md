@@ -28,7 +28,7 @@ Une fois charge, le provider rend disponibles :
 - `Cycle\ORM\ORMInterface`
 - `PDO`
 
-Si `impulsephp/database` est installe, le package fournit aussi un bridge vers `Impulse\Database\Contrats\DatabaseInterface`.
+Si `impulsephp/db` est installe, le package fournit aussi un bridge vers `Impulse\Database\Contrats\DatabaseInterface`.
 
 ## Premiere verification
 
