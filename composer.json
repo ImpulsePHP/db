@@ -1,0 +1,42 @@
+{
+  "name": "impulsephp/db",
+  "description": "Cycle ORM provider for ImpulsePHP with annotated entity discovery, deterministic schema snapshots, and automatic dev-time migrations.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Guillaume Bouyer",
+      "email": "impulsephp@icloud.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Impulse\\Db\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Impulse\\Db\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*",
+    "cycle/annotated": "^4.4",
+    "cycle/database": "^2.16",
+    "cycle/orm": "^2.15",
+    "cycle/schema-builder": "^2.11",
+    "impulsephp/core": "dev-main"
+  },
+  "suggest": {
+    "impulsephp/ui": "Recommended to display styled developer notifications in the main application UI."
+  },
+  "scripts": {
+    "test": "php tests/bin/smoke.php"
+  },
+  "extra": {
+    "impulse-provider": "Impulse\\Db\\DbProvider"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
